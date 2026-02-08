@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Tetris FSociety</title>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <link rel="stylesheet" href="styletetris.css">
+</head>
+<body>
+    <div id="ui">
+        <div>Счёт: <span id="score">0</span></div>
+        <div>Уровень: <span id="level">1</span></div>
+    </div>
+    <canvas id="tetris" width="300" height="600"></canvas>
+    <div id="controls">
+        <button class="btn" id="left">←</button>
+        <button class="btn" id="rot">↻</button>
+        <button class="btn" id="down">↓</button>
+        <button class="btn" id="right">→</button>
+    </div>
+
+    <script src="scripttetris.js"></script>
+</body>
+</html>
